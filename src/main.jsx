@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import Navbar from './components/Navbar.jsx'
-import Footer from './components/footer.jsx' // ✅ WAJIB
+import Footer from './components/Footer.jsx' // ✅ WAJIB
 import 'remixicon/fonts/remixicon.css'
 import Preloader from './components/Preloader.jsx'
 
