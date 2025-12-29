@@ -1,4 +1,4 @@
-const Footer = () => {
+const footer = () => {
   return (
     <div className="mt-32 py-4 flex md:flex-row flex-col gap-6 md:gap-0 justify-between items-center">
         <h1 className="text-2xl font-bold">Portofolio</h1>
@@ -23,4 +23,4 @@ const Footer = () => {
   );
 };
 
-export default Footer
+export default footer
