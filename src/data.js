@@ -100,7 +100,7 @@ export const listProyek = [
     desk: "Platform showcase pribadi yang dibangun menggunakan Vite dan Tailwind CSS, mengintegrasikan fitur looping data dinamis serta sistem pre-loader untuk pengalaman browsing yang profesional.a",
     tools: ["Vite", "ReactJS", "TailwindCSS", "javascript", "NodeJS"],
     dad: "500",
-    link: ""  
+    link: "https://github.com/BagasSatriaYn/React-Portofolio"  
   },
 ];
 
