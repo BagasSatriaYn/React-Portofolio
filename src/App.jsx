@@ -31,7 +31,7 @@ function App() {
 
         <div className="flex items-center sm:gap-4 gap-2">
           <a
-            href="/cv/CV_ATS_Bagas_Satria_YN_2026_Update.pdf"
+            href="/cv/CV_ATS_Bagas_Satria_YN_2026_NewUpdate.pdf"
             download
             className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600 transition-colors"
           >
