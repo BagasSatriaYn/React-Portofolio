@@ -62,6 +62,8 @@ import Proyek1 from "/assets/proyek/proyek7.png";
 import Proyek2 from "/assets/proyek/proyek8.png";
 import Proyek3 from "/assets/proyek/proyek9.jpeg";
 import Proyek4 from "/assets/proyek/proyek1.jpeg";
+import Proyek5 from "/assets/proyek/proyek5.png";
+import Proyek6 from "/assets/proyek/proyek6.png";
 
 
 export const listProyek = [
@@ -101,6 +103,24 @@ export const listProyek = [
     tools: ["Vite", "ReactJS", "TailwindCSS", "javascript", "NodeJS"],
     dad: "500",
     link: "https://github.com/BagasSatriaYn/React-Portofolio"  
+  },
+  {
+    id: 5,
+    gambar: Proyek5,
+    nama: "WargaHub (Smart RT Management System)",
+    desk: "Aplikasi manajemen RT yang berfungsi untuk mendata penghuni (tetap/kontrak), mengelola iuran bulanan (keamanan & kebersihan), serta mencatat pengeluaran kas RT dengan laporan keuangan otomatis berbasis grafik.",
+    tools: ["Laravel 13", "React 19", "PHP 8.3+", "MySQL 8.0+", "Vite", "TailwindCSS"],
+    dad: "500",
+    link: "https://github.com/BagasSatriaYn/bagassatria-skillfit-beon"  
+  },
+  {
+    id: 6,
+    gambar: Proyek6,
+    nama: "Smart CRM (Customer Relationship Management)    ",
+    desk: "Sistem manajemen pelanggan untuk mengelola alur penjualan, mulai dari pencatatan calon pelanggan (leads), manajemen produk layanan internet, hingga konversi menjadi pelanggan aktif melalui sistem deal pipeline.",
+    tools: ["Laravel 13", "PHP 8.3+", "React 18", "inertia.js", "Tailwind CSS", "MySQL", "Docker"],
+    dad: "500",
+    link: "https://github.com/BagasSatriaYn/bagas_crm"  
   },
 ];
 
