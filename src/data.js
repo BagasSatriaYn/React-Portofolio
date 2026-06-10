@@ -106,7 +106,7 @@ export const listProyek = [
   },
   {
     id: 5,
-    gambar: Proyek5,
+    gambar: Proyek6,
     nama: "WargaHub (Smart RT Management System)",
     desk: "Aplikasi manajemen RT yang berfungsi untuk mendata penghuni (tetap/kontrak), mengelola iuran bulanan (keamanan & kebersihan), serta mencatat pengeluaran kas RT dengan laporan keuangan otomatis berbasis grafik.",
     tools: ["Laravel 13", "React 19", "PHP 8.3+", "MySQL 8.0+", "Vite", "TailwindCSS"],
@@ -115,7 +115,7 @@ export const listProyek = [
   },
   {
     id: 6,
-    gambar: Proyek6,
+    gambar: Proyek5,
     nama: "Smart CRM (Customer Relationship Management)    ",
     desk: "Sistem manajemen pelanggan untuk mengelola alur penjualan, mulai dari pencatatan calon pelanggan (leads), manajemen produk layanan internet, hingga konversi menjadi pelanggan aktif melalui sistem deal pipeline.",
     tools: ["Laravel 13", "PHP 8.3+", "React 18", "inertia.js", "Tailwind CSS", "MySQL", "Docker"],
