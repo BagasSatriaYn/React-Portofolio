@@ -16,6 +16,7 @@ import DartIcon from "/assets/tools/dart.png"; // Tambahan baru
 // Frameworks & Mobile
 import ReactIcon from "/assets/tools/reactjs.png";
 import LaravelIcon from "/assets/tools/laravel.jfif";
+import CodeIgniterIcon from "/assets/tools/codeigniter-logo.png";
 import TailwindIcon from "/assets/tools/tailwind.png";
 import BootstrapIcon from "/assets/tools/bootstrap.png";
 import FlutterIcon from "/assets/tools/flutter.png"; // Tambahan baru
@@ -27,11 +28,11 @@ import MySQLIcon from "/assets/tools/mysql.png";
 import PostmanIcon from "/assets/tools/postman.png"; 
 import VSCodeIcon from "/assets/tools/vscode.png";
 import GithubIcon from "/assets/tools/github.png";
+import GitlabIcon from "/assets/tools/gitlab-logo.webp";
 import FigmaIcon from "/assets/tools/figma.png";
 import CanvaIcon from "/assets/tools/canva.png";
 
 export const listTools = [
-  // 1. Languages (Fundamentals)
   // 1. Languages (Fundamentals)
   { id: 1, gambar: HTMLIcon, nama: "HTML 5", ket: "Language", dad: "100" },
   { id: 2, gambar: CSSIcon, nama: "CSS 3", ket: "Language", dad: "200" },
@@ -43,19 +44,21 @@ export const listTools = [
   // 2. Frameworks & Mobile
   { id: 7, gambar: ReactIcon, nama: "React JS", ket: "Framework", dad: "700" },
   { id: 8, gambar: LaravelIcon, nama: "Laravel", ket: "Framework", dad: "800" },
-  { id: 9, gambar: FlutterIcon, nama: "Flutter", ket: "Framework", dad: "900" },
-  { id: 10, gambar: TailwindIcon, nama: "Tailwind CSS", ket: "Framework", dad: "1000" },
-  { id: 11, gambar: BootstrapIcon, nama: "Bootstrap", ket: "Framework", dad: "1100" },
-  { id: 12, gambar: NodeIcon, nama: "Node JS", ket: "Javascript Runtime", dad: "1200" },
-  { id: 13, gambar: ViteIcon, nama: "Vite", ket: "Build Tool", dad: "1300" },
+  { id: 9, gambar: CodeIgniterIcon, nama: "CodeIgniter", ket: "Framework", dad: "850" },
+  { id: 10, gambar: FlutterIcon, nama: "Flutter", ket: "Framework", dad: "900" },
+  { id: 11, gambar: TailwindIcon, nama: "Tailwind CSS", ket: "Framework", dad: "1000" },
+  { id: 12, gambar: BootstrapIcon, nama: "Bootstrap", ket: "Framework", dad: "1100" },
+  { id: 13, gambar: NodeIcon, nama: "Node JS", ket: "Javascript Runtime", dad: "1200" },
+  { id: 14, gambar: ViteIcon, nama: "Vite", ket: "Build Tool", dad: "1300" },
 
   // 3. Workflow, Database & Apps
-  { id: 14, gambar: MySQLIcon, nama: "MySQL", ket: "Database", dad: "1400" },
-  { id: 15, gambar: PostmanIcon, nama: "Postman", ket: "API Testing", dad: "1500" },
-  { id: 16, gambar: VSCodeIcon, nama: "Visual Studio Code", ket: "Code Editor", dad: "1600" },
-  { id: 17, gambar: GithubIcon, nama: "Github", ket: "Repository", dad: "1700" },
-  { id: 18, gambar: FigmaIcon, nama: "Figma", ket: "Design App", dad: "1800" },
-  { id: 19, gambar: CanvaIcon, nama: "Canva", ket: "Design App", dad: "1900" },
+  { id: 15, gambar: MySQLIcon, nama: "MySQL", ket: "Database", dad: "1400" },
+  { id: 16, gambar: PostmanIcon, nama: "Postman", ket: "API Testing", dad: "1500" },
+  { id: 17, gambar: VSCodeIcon, nama: "Visual Studio Code", ket: "Code Editor", dad: "1600" },
+  { id: 18, gambar: GithubIcon, nama: "Github", ket: "Repository", dad: "1700" },
+  { id: 19, gambar: GitlabIcon, nama: "GitLab", ket: "Repository", dad: "1750" },
+  { id: 20, gambar: FigmaIcon, nama: "Figma", ket: "Design App", dad: "1800" },
+  { id: 21, gambar: CanvaIcon, nama: "Canva", ket: "Design App", dad: "1900" },
 ];
 
 import Proyek1 from "/assets/proyek/proyek7.png";
